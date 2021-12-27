@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ page }) {
-		const url = `https://pokeapi.co/api/v2/pokemon/?limit=all`;
+		const url = `https://pokeapi.co/api/v2/pokemon/?limit=2000`;
 		const res = await fetch(url);
 		const data = await res.json();
 		const loadedPokemon = data.results.map((data, index) => {

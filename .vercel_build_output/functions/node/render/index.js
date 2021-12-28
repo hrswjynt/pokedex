@@ -6725,16 +6725,16 @@ var init_id_ac281ade = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-10c82b46.js
-var layout_10c82b46_exports = {};
-__export(layout_10c82b46_exports, {
+// .svelte-kit/output/server/chunks/__layout-1b5838c3.js
+var layout_1b5838c3_exports = {};
+__export(layout_1b5838c3_exports, {
   default: () => _layout
 });
 var Nav, css, _layout;
-var init_layout_10c82b46 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-10c82b46.js"() {
+var init_layout_1b5838c3 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-1b5838c3.js"() {
     init_shims();
-    init_app_0dd2e40c();
+    init_app_3857427f();
     init_ssr();
     Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `<nav class="${"flex justify-center w-full"}"><a class="${"mx-4 text-lg"}" href="${"/"}">Home</a>
@@ -6753,9 +6753,9 @@ var init_layout_10c82b46 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/error-14f57f0d.js
-var error_14f57f0d_exports = {};
-__export(error_14f57f0d_exports, {
+// .svelte-kit/output/server/chunks/error-d2a67d07.js
+var error_d2a67d07_exports = {};
+__export(error_d2a67d07_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -6763,10 +6763,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_14f57f0d = __esm({
-  ".svelte-kit/output/server/chunks/error-14f57f0d.js"() {
+var init_error_d2a67d07 = __esm({
+  ".svelte-kit/output/server/chunks/error-d2a67d07.js"() {
     init_shims();
-    init_app_0dd2e40c();
+    init_app_3857427f();
     init_ssr();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
@@ -6787,14 +6787,14 @@ ${error2.stack ? `<pre>${escape2(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-a6577f49.js
-var index_a6577f49_exports = {};
-__export(index_a6577f49_exports, {
+// .svelte-kit/output/server/chunks/index-60405f20.js
+var index_60405f20_exports = {};
+__export(index_60405f20_exports, {
   default: () => Routes,
   load: () => load2
 });
 async function load2({ page }) {
-  const url = `https://pokeapi.co/api/v2/pokemon/?limit=150`;
+  const url = `https://pokeapi.co/api/v2/pokemon/?limit=2000`;
   const res = await fetch(url);
   const data = await res.json();
   const loadedPokemon = data.results.map((data2, index) => {
@@ -6807,10 +6807,10 @@ async function load2({ page }) {
   return { props: { pokemon: loadedPokemon } };
 }
 var PokemanCard, Routes;
-var init_index_a6577f49 = __esm({
-  ".svelte-kit/output/server/chunks/index-a6577f49.js"() {
+var init_index_60405f20 = __esm({
+  ".svelte-kit/output/server/chunks/index-60405f20.js"() {
     init_shims();
-    init_app_0dd2e40c();
+    init_app_3857427f();
     init_ssr();
     PokemanCard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { pokeman } = $$props;
@@ -6843,9 +6843,9 @@ var init_index_a6577f49 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_id_-9e6f3d70.js
-var id_9e6f3d70_exports = {};
-__export(id_9e6f3d70_exports, {
+// .svelte-kit/output/server/chunks/_id_-5390c1ff.js
+var id_5390c1ff_exports = {};
+__export(id_5390c1ff_exports, {
   default: () => U5Bidu5D,
   load: () => load3
 });
@@ -6857,10 +6857,10 @@ async function load3({ page }) {
   return { props: { pokeman } };
 }
 var U5Bidu5D;
-var init_id_9e6f3d70 = __esm({
-  ".svelte-kit/output/server/chunks/_id_-9e6f3d70.js"() {
+var init_id_5390c1ff = __esm({
+  ".svelte-kit/output/server/chunks/_id_-5390c1ff.js"() {
     init_shims();
-    init_app_0dd2e40c();
+    init_app_3857427f();
     init_ssr();
     U5Bidu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { pokeman } = $$props;
@@ -6875,16 +6875,16 @@ var init_id_9e6f3d70 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/about-60a82e1d.js
-var about_60a82e1d_exports = {};
-__export(about_60a82e1d_exports, {
+// .svelte-kit/output/server/chunks/about-b97bfcbf.js
+var about_b97bfcbf_exports = {};
+__export(about_b97bfcbf_exports, {
   default: () => About
 });
 var About;
-var init_about_60a82e1d = __esm({
-  ".svelte-kit/output/server/chunks/about-60a82e1d.js"() {
+var init_about_b97bfcbf = __esm({
+  ".svelte-kit/output/server/chunks/about-b97bfcbf.js"() {
     init_shims();
-    init_app_0dd2e40c();
+    init_app_3857427f();
     init_ssr();
     About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `${$$result.head += `${$$result.title = `<title>Svelte Kit About</title>`, ""}`, ""}
@@ -6895,7 +6895,7 @@ var init_about_60a82e1d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-0dd2e40c.js
+// .svelte-kit/output/server/chunks/app-3857427f.js
 function run(fn) {
   return fn();
 }
@@ -6989,9 +6989,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-048bbe1b.js",
+      file: assets + "/_app/start-590fc33a.js",
       css: [assets + "/_app/assets/start-d5b4de3e.css"],
-      js: [assets + "/_app/start-048bbe1b.js", assets + "/_app/chunks/vendor-20f4fcab.js"]
+      js: [assets + "/_app/start-590fc33a.js", assets + "/_app/chunks/vendor-20f4fcab.js"]
     },
     fetched: void 0,
     floc: false,
@@ -7010,7 +7010,7 @@ function init(settings = default_settings) {
     prerender: true,
     read: settings.read,
     root: Root,
-    service_worker: null,
+    service_worker: "/service-worker.js",
     router: true,
     ssr: true,
     target: "#svelte",
@@ -7035,8 +7035,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender });
 }
 var current_component, escaped2, missing_component, on_destroy, css2, Root, base, assets, user_hooks, template, options, default_settings, d, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_0dd2e40c = __esm({
-  ".svelte-kit/output/server/chunks/app-0dd2e40c.js"() {
+var init_app_3857427f = __esm({
+  ".svelte-kit/output/server/chunks/app-3857427f.js"() {
     init_shims();
     init_ssr();
     Promise.resolve();
@@ -7096,13 +7096,13 @@ ${``}`;
       __proto__: null,
       [Symbol.toStringTag]: "Module"
     });
-    template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="description" content="" />\n		<link rel="icon" href="/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>\n";
+    template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="description" content="" />\n		<link rel="icon" href="/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n		<link rel="manifest" href="../static/manifest.json" />\n\n		<link rel="apple-touch-icon" href="sta-icon-180.png" />\n\n		<meta name="apple-mobile-web-app-capabs" />\n\n		<link rel="apple-touch-startup-image" ons/apple-splash-2048-2732.jpg" media= 1024px) and\n		(device-height: 1366px) aice-pixel-ratio: 2) and (orientation: <link\n		rel="apple-touch-startup-image" ons/apple-splash-2732-2048.jpg" media= 1024px) and\n		(device-height: 1366px) aice-pixel-ratio: 2) and (orientation: <link\n		rel="apple-touch-startup-image" ons/apple-splash-1668-2388.jpg" media= 834px) and\n		(device-height: 1194px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2388-1668.jpg" media= 834px) and\n		(device-height: 1194px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1536-2048.jpg" media= 768px) and\n		(device-height: 1024px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2048-1536.jpg" media= 768px) and\n		(device-height: 1024px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1668-2224.jpg" media= 834px) and\n		(device-height: 1112px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2224-1668.jpg" media= 834px) and\n		(device-height: 1112px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1620-2160.jpg" media= 810px) and\n		(device-height: 1080px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2160-1620.jpg" media= 810px) and\n		(device-height: 1080px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1284-2778.jpg" media= 428px) and\n		(device-height: 926px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2778-1284.jpg" media= 428px) and\n		(device-height: 926px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1170-2532.jpg" media= 390px) and\n		(device-height: 844px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2532-1170.jpg" media= 390px) and\n		(device-height: 844px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1125-2436.jpg" media= 375px) and\n		(device-height: 812px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2436-1125.jpg" media= 375px) and\n		(device-height: 812px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1242-2688.jpg" media= 414px) and\n		(device-height: 896px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2688-1242.jpg" media= 414px) and\n		(device-height: 896px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-828-1792.jpg" media=" 414px) and\n		(device-height: 896px) and -pixel-ratio: 2) and (orientation: por <link\n		rel="apple-touch-startup-image" ons/apple-splash-1792-828.jpg" media=" 414px) and\n		(device-height: 896px) and -pixel-ratio: 2) and (orientation: lan <link\n		rel="apple-touch-startup-image" ons/apple-splash-1242-2208.jpg" media= 414px) and\n		(device-height: 736px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2208-1242.jpg" media= 414px) and\n		(device-height: 736px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-750-1334.jpg" media=" 375px) and\n		(device-height: 667px) and -pixel-ratio: 2) and (orientation: por <link\n		rel="apple-touch-startup-image" ons/apple-splash-1334-750.jpg" media=" 375px) and\n		(device-height: 667px) and -pixel-ratio: 2) and (orientation: lan <link\n		rel="apple-touch-startup-image" ons/apple-splash-640-1136.jpg" media="(device-width: 320px) and\n		(device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">\n		<link\n			rel="apple-touch-startup-image"\n			href="static/icons/apple-splash-1136-640.jpg"\n			media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"\n		/>\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>\n";
     options = null;
     default_settings = { paths: { "base": "", "assets": "" } };
     d = (s3) => s3.replace(/%23/g, "#").replace(/%3[Bb]/g, ";").replace(/%2[Cc]/g, ",").replace(/%2[Ff]/g, "/").replace(/%3[Ff]/g, "?").replace(/%3[Aa]/g, ":").replace(/%40/g, "@").replace(/%26/g, "&").replace(/%3[Dd]/g, "=").replace(/%2[Bb]/g, "+").replace(/%24/g, "$");
     empty = () => ({});
     manifest = {
-      assets: [{ "file": "favicon.png", "size": 1571, "type": "image/png" }],
+      assets: [{ "file": "favicon.png", "size": 1571, "type": "image/png" }, { "file": "icons/apple-icon-180.png", "size": 7147, "type": "image/png" }, { "file": "icons/apple-splash-1125-2436.jpg", "size": 32830, "type": "image/jpeg" }, { "file": "icons/apple-splash-1136-640.jpg", "size": 12346, "type": "image/jpeg" }, { "file": "icons/apple-splash-1170-2532.jpg", "size": 34803, "type": "image/jpeg" }, { "file": "icons/apple-splash-1242-2208.jpg", "size": 34380, "type": "image/jpeg" }, { "file": "icons/apple-splash-1242-2688.jpg", "size": 37929, "type": "image/jpeg" }, { "file": "icons/apple-splash-1284-2778.jpg", "size": 39823, "type": "image/jpeg" }, { "file": "icons/apple-splash-1334-750.jpg", "size": 15115, "type": "image/jpeg" }, { "file": "icons/apple-splash-1536-2048.jpg", "size": 40946, "type": "image/jpeg" }, { "file": "icons/apple-splash-1620-2160.jpg", "size": 43835, "type": "image/jpeg" }, { "file": "icons/apple-splash-1668-2224.jpg", "size": 46096, "type": "image/jpeg" }, { "file": "icons/apple-splash-1668-2388.jpg", "size": 47664, "type": "image/jpeg" }, { "file": "icons/apple-splash-1792-828.jpg", "size": 17732, "type": "image/jpeg" }, { "file": "icons/apple-splash-2048-1536.jpg", "size": 39033, "type": "image/jpeg" }, { "file": "icons/apple-splash-2048-2732.jpg", "size": 61890, "type": "image/jpeg" }, { "file": "icons/apple-splash-2160-1620.jpg", "size": 41998, "type": "image/jpeg" }, { "file": "icons/apple-splash-2208-1242.jpg", "size": 30680, "type": "image/jpeg" }, { "file": "icons/apple-splash-2224-1668.jpg", "size": 44098, "type": "image/jpeg" }, { "file": "icons/apple-splash-2388-1668.jpg", "size": 45210, "type": "image/jpeg" }, { "file": "icons/apple-splash-2436-1125.jpg", "size": 28160, "type": "image/jpeg" }, { "file": "icons/apple-splash-2532-1170.jpg", "size": 30088, "type": "image/jpeg" }, { "file": "icons/apple-splash-2688-1242.jpg", "size": 32873, "type": "image/jpeg" }, { "file": "icons/apple-splash-2732-2048.jpg", "size": 59867, "type": "image/jpeg" }, { "file": "icons/apple-splash-2778-1284.jpg", "size": 34666, "type": "image/jpeg" }, { "file": "icons/apple-splash-640-1136.jpg", "size": 13775, "type": "image/jpeg" }, { "file": "icons/apple-splash-750-1334.jpg", "size": 17156, "type": "image/jpeg" }, { "file": "icons/apple-splash-828-1792.jpg", "size": 21124, "type": "image/jpeg" }, { "file": "icons/manifest-icon-192.maskable.png", "size": 7723, "type": "image/png" }, { "file": "icons/manifest-icon-512.maskable.png", "size": 22163, "type": "image/png" }, { "file": "logo.svg", "size": 4301, "type": "image/svg+xml" }, { "file": "manifest.json", "size": 937, "type": "application/json" }],
       layout: "src/routes/__layout.svelte",
       error: ".svelte-kit/build/components/error.svelte",
       routes: [
@@ -7148,13 +7148,13 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_10c82b46(), layout_10c82b46_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_14f57f0d(), error_14f57f0d_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_a6577f49(), index_a6577f49_exports)),
-      "src/routes/pokemon/[id].svelte": () => Promise.resolve().then(() => (init_id_9e6f3d70(), id_9e6f3d70_exports)),
-      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_60a82e1d(), about_60a82e1d_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_1b5838c3(), layout_1b5838c3_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_d2a67d07(), error_d2a67d07_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_60405f20(), index_60405f20_exports)),
+      "src/routes/pokemon/[id].svelte": () => Promise.resolve().then(() => (init_id_5390c1ff(), id_5390c1ff_exports)),
+      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_b97bfcbf(), about_b97bfcbf_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-2b045bb1.js", "css": ["assets/pages/__layout.svelte-92f21421.css"], "js": ["pages/__layout.svelte-2b045bb1.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-4871c992.js", "css": [], "js": ["error.svelte-4871c992.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-987b9ebb.js", "css": [], "js": ["pages/index.svelte-987b9ebb.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/pokemon/[id].svelte": { "entry": "pages/pokemon/_id_.svelte-b7590149.js", "css": [], "js": ["pages/pokemon/_id_.svelte-b7590149.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-4eff5338.js", "css": [], "js": ["pages/about.svelte-4eff5338.js", "chunks/vendor-20f4fcab.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-2b045bb1.js", "css": ["assets/pages/__layout.svelte-92f21421.css"], "js": ["pages/__layout.svelte-2b045bb1.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-4871c992.js", "css": [], "js": ["error.svelte-4871c992.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-89a6cd2f.js", "css": [], "js": ["pages/index.svelte-89a6cd2f.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/pokemon/[id].svelte": { "entry": "pages/pokemon/_id_.svelte-b7590149.js", "css": [], "js": ["pages/pokemon/_id_.svelte-b7590149.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-4eff5338.js", "css": [], "js": ["pages/about.svelte-4eff5338.js", "chunks/vendor-20f4fcab.js"], "styles": [] } };
   }
 });
 
@@ -7208,7 +7208,7 @@ function getRawBody(req) {
 // .svelte-kit/output/server/app.js
 init_shims();
 init_ssr();
-init_app_0dd2e40c();
+init_app_3857427f();
 
 // .svelte-kit/vercel/entry.js
 init();

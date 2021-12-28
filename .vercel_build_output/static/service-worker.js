@@ -1,11 +1,11 @@
-const timestamp = 1640662589930;
+const timestamp = 1640691244092;
 const build = [
-  "/_app/start-590fc33a.js",
+  "/_app/start-048bbe1b.js",
   "/_app/assets/start-d5b4de3e.css",
   "/_app/pages/__layout.svelte-2b045bb1.js",
   "/_app/assets/pages/__layout.svelte-92f21421.css",
   "/_app/error.svelte-4871c992.js",
-  "/_app/pages/index.svelte-89a6cd2f.js",
+  "/_app/pages/index.svelte-987b9ebb.js",
   "/_app/pages/pokemon/_id_.svelte-b7590149.js",
   "/_app/pages/about.svelte-4eff5338.js",
   "/_app/chunks/vendor-20f4fcab.js"

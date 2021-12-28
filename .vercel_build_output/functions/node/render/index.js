@@ -6725,16 +6725,16 @@ var init_id_ac281ade = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-8ef194d4.js
-var layout_8ef194d4_exports = {};
-__export(layout_8ef194d4_exports, {
+// .svelte-kit/output/server/chunks/__layout-20edf318.js
+var layout_20edf318_exports = {};
+__export(layout_20edf318_exports, {
   default: () => _layout
 });
 var Nav, css, _layout;
-var init_layout_8ef194d4 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-8ef194d4.js"() {
+var init_layout_20edf318 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-20edf318.js"() {
     init_shims();
-    init_app_d3ac5acd();
+    init_app_989a181e();
     init_ssr();
     Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `<nav class="${"flex justify-center w-full"}"><a class="${"mx-4 text-lg"}" href="${"/"}">Home</a>
@@ -6753,9 +6753,9 @@ var init_layout_8ef194d4 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/error-792264b2.js
-var error_792264b2_exports = {};
-__export(error_792264b2_exports, {
+// .svelte-kit/output/server/chunks/error-825954f5.js
+var error_825954f5_exports = {};
+__export(error_825954f5_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -6763,10 +6763,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_792264b2 = __esm({
-  ".svelte-kit/output/server/chunks/error-792264b2.js"() {
+var init_error_825954f5 = __esm({
+  ".svelte-kit/output/server/chunks/error-825954f5.js"() {
     init_shims();
-    init_app_d3ac5acd();
+    init_app_989a181e();
     init_ssr();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
@@ -6787,14 +6787,14 @@ ${error2.stack ? `<pre>${escape2(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-07cafdde.js
-var index_07cafdde_exports = {};
-__export(index_07cafdde_exports, {
+// .svelte-kit/output/server/chunks/index-8fe8b950.js
+var index_8fe8b950_exports = {};
+__export(index_8fe8b950_exports, {
   default: () => Routes,
   load: () => load2
 });
 async function load2({ page }) {
-  const url = `https://pokeapi.co/api/v2/pokemon/?limit=2000`;
+  const url = `https://pokeapi.co/api/v2/pokemon/?limit=150`;
   const res = await fetch(url);
   const data = await res.json();
   const loadedPokemon = data.results.map((data2, index) => {
@@ -6807,10 +6807,10 @@ async function load2({ page }) {
   return { props: { pokemon: loadedPokemon } };
 }
 var PokemanCard, Routes;
-var init_index_07cafdde = __esm({
-  ".svelte-kit/output/server/chunks/index-07cafdde.js"() {
+var init_index_8fe8b950 = __esm({
+  ".svelte-kit/output/server/chunks/index-8fe8b950.js"() {
     init_shims();
-    init_app_d3ac5acd();
+    init_app_989a181e();
     init_ssr();
     PokemanCard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { pokeman } = $$props;
@@ -6843,9 +6843,9 @@ var init_index_07cafdde = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_id_-707298a4.js
-var id_707298a4_exports = {};
-__export(id_707298a4_exports, {
+// .svelte-kit/output/server/chunks/_id_-93cedd21.js
+var id_93cedd21_exports = {};
+__export(id_93cedd21_exports, {
   default: () => U5Bidu5D,
   load: () => load3
 });
@@ -6857,10 +6857,10 @@ async function load3({ page }) {
   return { props: { pokeman } };
 }
 var U5Bidu5D;
-var init_id_707298a4 = __esm({
-  ".svelte-kit/output/server/chunks/_id_-707298a4.js"() {
+var init_id_93cedd21 = __esm({
+  ".svelte-kit/output/server/chunks/_id_-93cedd21.js"() {
     init_shims();
-    init_app_d3ac5acd();
+    init_app_989a181e();
     init_ssr();
     U5Bidu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { pokeman } = $$props;
@@ -6875,16 +6875,16 @@ var init_id_707298a4 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/about-c3a97e68.js
-var about_c3a97e68_exports = {};
-__export(about_c3a97e68_exports, {
+// .svelte-kit/output/server/chunks/about-e135a88c.js
+var about_e135a88c_exports = {};
+__export(about_e135a88c_exports, {
   default: () => About
 });
 var About;
-var init_about_c3a97e68 = __esm({
-  ".svelte-kit/output/server/chunks/about-c3a97e68.js"() {
+var init_about_e135a88c = __esm({
+  ".svelte-kit/output/server/chunks/about-e135a88c.js"() {
     init_shims();
-    init_app_d3ac5acd();
+    init_app_989a181e();
     init_ssr();
     About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `${$$result.head += `${$$result.title = `<title>Svelte Kit About</title>`, ""}`, ""}
@@ -6895,7 +6895,7 @@ var init_about_c3a97e68 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-d3ac5acd.js
+// .svelte-kit/output/server/chunks/app-989a181e.js
 function run(fn) {
   return fn();
 }
@@ -6989,9 +6989,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-590fc33a.js",
+      file: assets + "/_app/start-048bbe1b.js",
       css: [assets + "/_app/assets/start-d5b4de3e.css"],
-      js: [assets + "/_app/start-590fc33a.js", assets + "/_app/chunks/vendor-20f4fcab.js"]
+      js: [assets + "/_app/start-048bbe1b.js", assets + "/_app/chunks/vendor-20f4fcab.js"]
     },
     fetched: void 0,
     floc: false,
@@ -7035,8 +7035,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender });
 }
 var current_component, escaped2, missing_component, on_destroy, css2, Root, base, assets, user_hooks, template, options, default_settings, d, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_d3ac5acd = __esm({
-  ".svelte-kit/output/server/chunks/app-d3ac5acd.js"() {
+var init_app_989a181e = __esm({
+  ".svelte-kit/output/server/chunks/app-989a181e.js"() {
     init_shims();
     init_ssr();
     Promise.resolve();
@@ -7096,7 +7096,7 @@ ${``}`;
       __proto__: null,
       [Symbol.toStringTag]: "Module"
     });
-    template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="description" content="" />\n		<link rel="icon" href="/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n		<script src="./service-worker.js"><\/script>\n		<link rel="manifest" href="../static/manifest.json" />\n\n		<link rel="apple-touch-icon" href="sta-icon-180.png" />\n\n		<meta name="apple-mobile-web-app-capabs" />\n\n		<link rel="apple-touch-startup-image" ons/apple-splash-2048-2732.jpg" media= 1024px) and\n		(device-height: 1366px) aice-pixel-ratio: 2) and (orientation: <link\n		rel="apple-touch-startup-image" ons/apple-splash-2732-2048.jpg" media= 1024px) and\n		(device-height: 1366px) aice-pixel-ratio: 2) and (orientation: <link\n		rel="apple-touch-startup-image" ons/apple-splash-1668-2388.jpg" media= 834px) and\n		(device-height: 1194px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2388-1668.jpg" media= 834px) and\n		(device-height: 1194px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1536-2048.jpg" media= 768px) and\n		(device-height: 1024px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2048-1536.jpg" media= 768px) and\n		(device-height: 1024px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1668-2224.jpg" media= 834px) and\n		(device-height: 1112px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2224-1668.jpg" media= 834px) and\n		(device-height: 1112px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1620-2160.jpg" media= 810px) and\n		(device-height: 1080px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2160-1620.jpg" media= 810px) and\n		(device-height: 1080px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1284-2778.jpg" media= 428px) and\n		(device-height: 926px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2778-1284.jpg" media= 428px) and\n		(device-height: 926px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1170-2532.jpg" media= 390px) and\n		(device-height: 844px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2532-1170.jpg" media= 390px) and\n		(device-height: 844px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1125-2436.jpg" media= 375px) and\n		(device-height: 812px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2436-1125.jpg" media= 375px) and\n		(device-height: 812px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1242-2688.jpg" media= 414px) and\n		(device-height: 896px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2688-1242.jpg" media= 414px) and\n		(device-height: 896px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-828-1792.jpg" media=" 414px) and\n		(device-height: 896px) and -pixel-ratio: 2) and (orientation: por <link\n		rel="apple-touch-startup-image" ons/apple-splash-1792-828.jpg" media=" 414px) and\n		(device-height: 896px) and -pixel-ratio: 2) and (orientation: lan <link\n		rel="apple-touch-startup-image" ons/apple-splash-1242-2208.jpg" media= 414px) and\n		(device-height: 736px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2208-1242.jpg" media= 414px) and\n		(device-height: 736px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-750-1334.jpg" media=" 375px) and\n		(device-height: 667px) and -pixel-ratio: 2) and (orientation: por <link\n		rel="apple-touch-startup-image" ons/apple-splash-1334-750.jpg" media=" 375px) and\n		(device-height: 667px) and -pixel-ratio: 2) and (orientation: lan <link\n		rel="apple-touch-startup-image" ons/apple-splash-640-1136.jpg" media="(device-width: 320px) and\n		(device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">\n		<link\n			rel="apple-touch-startup-image"\n			href="static/icons/apple-splash-1136-640.jpg"\n			media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"\n		/>\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>\n";
+    template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="description" content="" />\n		<link rel="icon" href="/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n		<script src="./service-worker.js"><\/script>\n		<link rel="manifest" href="/static/manifest.json" />\n\n		<link rel="apple-touch-icon" href="sta-icon-180.png" />\n\n		<meta name="apple-mobile-web-app-capabs" />\n\n		<link rel="apple-touch-startup-image" ons/apple-splash-2048-2732.jpg" media= 1024px) and\n		(device-height: 1366px) aice-pixel-ratio: 2) and (orientation: <link\n		rel="apple-touch-startup-image" ons/apple-splash-2732-2048.jpg" media= 1024px) and\n		(device-height: 1366px) aice-pixel-ratio: 2) and (orientation: <link\n		rel="apple-touch-startup-image" ons/apple-splash-1668-2388.jpg" media= 834px) and\n		(device-height: 1194px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2388-1668.jpg" media= 834px) and\n		(device-height: 1194px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1536-2048.jpg" media= 768px) and\n		(device-height: 1024px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2048-1536.jpg" media= 768px) and\n		(device-height: 1024px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1668-2224.jpg" media= 834px) and\n		(device-height: 1112px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2224-1668.jpg" media= 834px) and\n		(device-height: 1112px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1620-2160.jpg" media= 810px) and\n		(device-height: 1080px) ance-pixel-ratio: 2) and (orientation: p <link\n		rel="apple-touch-startup-image" ons/apple-splash-2160-1620.jpg" media= 810px) and\n		(device-height: 1080px) ance-pixel-ratio: 2) and (orientation: l <link\n		rel="apple-touch-startup-image" ons/apple-splash-1284-2778.jpg" media= 428px) and\n		(device-height: 926px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2778-1284.jpg" media= 428px) and\n		(device-height: 926px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1170-2532.jpg" media= 390px) and\n		(device-height: 844px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2532-1170.jpg" media= 390px) and\n		(device-height: 844px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1125-2436.jpg" media= 375px) and\n		(device-height: 812px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2436-1125.jpg" media= 375px) and\n		(device-height: 812px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-1242-2688.jpg" media= 414px) and\n		(device-height: 896px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2688-1242.jpg" media= 414px) and\n		(device-height: 896px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-828-1792.jpg" media=" 414px) and\n		(device-height: 896px) and -pixel-ratio: 2) and (orientation: por <link\n		rel="apple-touch-startup-image" ons/apple-splash-1792-828.jpg" media=" 414px) and\n		(device-height: 896px) and -pixel-ratio: 2) and (orientation: lan <link\n		rel="apple-touch-startup-image" ons/apple-splash-1242-2208.jpg" media= 414px) and\n		(device-height: 736px) ande-pixel-ratio: 3) and (orientation: po <link\n		rel="apple-touch-startup-image" ons/apple-splash-2208-1242.jpg" media= 414px) and\n		(device-height: 736px) ande-pixel-ratio: 3) and (orientation: la <link\n		rel="apple-touch-startup-image" ons/apple-splash-750-1334.jpg" media=" 375px) and\n		(device-height: 667px) and -pixel-ratio: 2) and (orientation: por <link\n		rel="apple-touch-startup-image" ons/apple-splash-1334-750.jpg" media=" 375px) and\n		(device-height: 667px) and -pixel-ratio: 2) and (orientation: lan <link\n		rel="apple-touch-startup-image" ons/apple-splash-640-1136.jpg" media="(device-width: 320px) and\n		(device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">\n		<link\n			rel="apple-touch-startup-image"\n			href="static/icons/apple-splash-1136-640.jpg"\n			media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"\n		/>\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>\n";
     options = null;
     default_settings = { paths: { "base": "", "assets": "" } };
     d = (s3) => s3.replace(/%23/g, "#").replace(/%3[Bb]/g, ";").replace(/%2[Cc]/g, ",").replace(/%2[Ff]/g, "/").replace(/%3[Ff]/g, "?").replace(/%3[Aa]/g, ":").replace(/%40/g, "@").replace(/%26/g, "&").replace(/%3[Dd]/g, "=").replace(/%2[Bb]/g, "+").replace(/%24/g, "$");
@@ -7148,13 +7148,13 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_8ef194d4(), layout_8ef194d4_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_792264b2(), error_792264b2_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_07cafdde(), index_07cafdde_exports)),
-      "src/routes/pokemon/[id].svelte": () => Promise.resolve().then(() => (init_id_707298a4(), id_707298a4_exports)),
-      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_c3a97e68(), about_c3a97e68_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_20edf318(), layout_20edf318_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_825954f5(), error_825954f5_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_8fe8b950(), index_8fe8b950_exports)),
+      "src/routes/pokemon/[id].svelte": () => Promise.resolve().then(() => (init_id_93cedd21(), id_93cedd21_exports)),
+      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_e135a88c(), about_e135a88c_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-2b045bb1.js", "css": ["assets/pages/__layout.svelte-92f21421.css"], "js": ["pages/__layout.svelte-2b045bb1.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-4871c992.js", "css": [], "js": ["error.svelte-4871c992.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-89a6cd2f.js", "css": [], "js": ["pages/index.svelte-89a6cd2f.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/pokemon/[id].svelte": { "entry": "pages/pokemon/_id_.svelte-b7590149.js", "css": [], "js": ["pages/pokemon/_id_.svelte-b7590149.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-4eff5338.js", "css": [], "js": ["pages/about.svelte-4eff5338.js", "chunks/vendor-20f4fcab.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-2b045bb1.js", "css": ["assets/pages/__layout.svelte-92f21421.css"], "js": ["pages/__layout.svelte-2b045bb1.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-4871c992.js", "css": [], "js": ["error.svelte-4871c992.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-987b9ebb.js", "css": [], "js": ["pages/index.svelte-987b9ebb.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/pokemon/[id].svelte": { "entry": "pages/pokemon/_id_.svelte-b7590149.js", "css": [], "js": ["pages/pokemon/_id_.svelte-b7590149.js", "chunks/vendor-20f4fcab.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-4eff5338.js", "css": [], "js": ["pages/about.svelte-4eff5338.js", "chunks/vendor-20f4fcab.js"], "styles": [] } };
   }
 });
 
@@ -7208,7 +7208,7 @@ function getRawBody(req) {
 // .svelte-kit/output/server/app.js
 init_shims();
 init_ssr();
-init_app_d3ac5acd();
+init_app_989a181e();
 
 // .svelte-kit/vercel/entry.js
 init();
